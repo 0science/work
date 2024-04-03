@@ -4,11 +4,7 @@
     <header>
       <div class="logo">
         <span><img src="../assets/imgs/logo.png" alt="" /></span>
-        <span
-          ><router-link to="/index"
-            ><strong>咸宁市产教融合服务平台</strong></router-link
-          ></span
-        >
+        <span><router-link to="/index"><strong>咸宁市产教融合服务平台</strong></router-link></span>
       </div>
       <nav>
         <ul>
@@ -41,12 +37,7 @@
     <!-- 轮播图 -->
     <div class="block">
       <span class="demonstration"></span>
-      <el-carousel
-        trigger="click"
-        class="custom-carousel"
-        interval="2000"
-        height="710px"
-      >
+      <el-carousel trigger="click" class="custom-carousel" interval="2000" height="710px">
         <el-carousel-item v-for="item in 5" :key="item"> </el-carousel-item>
       </el-carousel>
     </div>
@@ -54,49 +45,232 @@
     <!-- 通知栏 -->
     <div class="notice">
       <el-row :gutter="0">
-        <el-col :xs="20" :sm="14"
-          ><div class="grid-content bg-purple">
+        <el-col :xs="20" :sm="14">
+          <div class="grid-content bg-purple">
             &nbsp;&nbsp;&nbsp;&nbsp;国家发展改革委等部门联合印发《职业教育产教融合赋能提升行动实施方案（2023-2025年）》
-          </div></el-col
-        >
-        <el-col :xs="2" :sm="8"
-          ><div class="grid-content bg-purple-light">2024-3-14</div></el-col
-        >
-        <el-col :xs="2" :sm="2"
-          ><div class="grid-content bg-purple">全部<i class=""></i></div
-        ></el-col>
+          </div>
+        </el-col>
+        <el-col :xs="2" :sm="8">
+          <div class="grid-content bg-purple-light">2024-3-14</div>
+        </el-col>
+        <el-col :xs="2" :sm="2">
+          <div class="grid-content bg-purple">全部<i class=""></i></div>
+        </el-col>
       </el-row>
     </div>
 
     <!-- 主体 -->
     <main>
       <el-row type="flex" class="row-bg" justify="center">
-        <el-col :span="10"
-          ><div class="grid-content bg-purple">
-            <img src="../assets/imgs/main1.svg" alt="" /></div
-        ></el-col>
-        <el-col :span="8"
-          ><div class="grid-content bg-purple-light">
+        <el-col :span="16">
+          <div class="grid-content-p">
+            <img src="../assets/imgs/main1.svg" alt="" />
+          </div>
+        </el-col>
+        <el-col :span="8">
+          <div class="grid-content-b">
             <h2><strong>人才供需服务</strong></h2>
-              <h3>人才供需及匹配服务</h3>
-              <li>• 企业招聘信息发布</li>
-              <li>• 人才求职信息发布</li>
-              <li>• 人才供需信息智能匹配</li>
-              <h3>人才增值服务</h3>
-              <li>• 职业规划和评测</li>
-              <li>• 实训培训指导</li>
-              <li>• 证书综合服务</li></div
-        ></el-col>
+            <h3>人才供需及匹配服务</h3>
+            <li>• 企业招聘信息发布</li>
+            <li>• 人才求职信息发布</li>
+            <li>• 人才供需信息智能匹配</li>
+            <h3>人才增值服务</h3>
+            <li>• 职业规划和评测</li>
+            <li>• 实训培训指导</li>
+            <li>• 证书综合服务</li>
+          </div>
+        </el-col>
       </el-row>
       <el-row type="flex" class="row-bg" justify="center">
-        <el-col :span="8"
-          ><div class="grid-content bg-purple-light"></div
-        ></el-col>
-        <el-col :span="10"
-          ><div class="grid-content bg-purple">
-            <img src="../assets/imgs/main1.svg" alt="" /></div
-        ></el-col>
+        <el-col :span="8">
+          <div class="grid-content-b">
+            <h2><strong>人才供需服务</strong></h2>
+            <h3>人才供需及匹配服务</h3>
+            <li>• 企业招聘信息发布</li>
+            <li>• 人才求职信息发布</li>
+            <li>• 人才供需信息智能匹配</li>
+            <h3>人才增值服务</h3>
+            <li>• 职业规划和评测</li>
+            <li>• 实训培训指导</li>
+            <li>• 证书综合服务</li>
+          </div>
+        </el-col>
+        <el-col :span="8">
+          <div class="grid-content-p">
+            <img src="../assets/imgs/main1.svg" alt="" />
+          </div>
+        </el-col>
       </el-row>
+      <el-row type="flex" class="row-bg" justify="center">
+        <el-col :span="16">
+          <div class="grid-content-p">
+            <img src="../assets/imgs/main1.svg" alt="" />
+          </div>
+        </el-col>
+        <el-col :span="8">
+          <div class="grid-content-b">
+            <h2><strong>人才供需服务</strong></h2>
+            <h3>人才供需及匹配服务</h3>
+            <li>• 企业招聘信息发布</li>
+            <li>• 人才求职信息发布</li>
+            <li>• 人才供需信息智能匹配</li>
+            <h3>人才增值服务</h3>
+            <li>• 职业规划和评测</li>
+            <li>• 实训培训指导</li>
+            <li>• 证书综合服务</li>
+          </div>
+        </el-col>
+      </el-row>
+      <el-row type="flex" class="row-bg" justify="center">
+        <el-col :span="8">
+          <div class="grid-content-b">
+            <h2><strong>人才供需服务</strong></h2>
+            <h3>人才供需及匹配服务</h3>
+            <li>• 企业招聘信息发布</li>
+            <li>• 人才求职信息发布</li>
+            <li>• 人才供需信息智能匹配</li>
+            <h3>人才增值服务</h3>
+            <li>• 职业规划和评测</li>
+            <li>• 实训培训指导</li>
+            <li>• 证书综合服务</li>
+          </div>
+        </el-col>
+        <el-col :span="8">
+          <div class="grid-content-p">
+            <img src="../assets/imgs/main1.svg" alt="" />
+          </div>
+        </el-col>
+      </el-row>
+      <el-row type="flex" class="row-bg" justify="center">
+        <el-col :span="16">
+          <div class="grid-content-p">
+            <img src="../assets/imgs/main1.svg" alt="" />
+          </div>
+        </el-col>
+        <el-col :span="8">
+          <div class="grid-content-b">
+            <h2><strong>人才供需服务</strong></h2>
+            <h3>人才供需及匹配服务</h3>
+            <li>• 企业招聘信息发布</li>
+            <li>• 人才求职信息发布</li>
+            <li>• 人才供需信息智能匹配</li>
+            <h3>人才增值服务</h3>
+            <li>• 职业规划和评测</li>
+            <li>• 实训培训指导</li>
+            <li>• 证书综合服务</li>
+          </div>
+        </el-col>
+      </el-row>
+      <el-row type="flex" class="row-bg" justify="center">
+        <el-col :span="8">
+          <div class="grid-content-b">
+            <h2><strong>人才供需服务</strong></h2>
+            <h3>人才供需及匹配服务</h3>
+            <li>• 企业招聘信息发布</li>
+            <li>• 人才求职信息发布</li>
+            <li>• 人才供需信息智能匹配</li>
+            <h3>人才增值服务</h3>
+            <li>• 职业规划和评测</li>
+            <li>• 实训培训指导</li>
+            <li>• 证书综合服务</li>
+          </div>
+        </el-col>
+        <el-col :span="8">
+          <div class="grid-content-p">
+            <img src="../assets/imgs/main1.svg" alt="" />
+          </div>
+        </el-col>
+      </el-row>
+      <div class="content2">
+        <div class="little-title">
+          <h4>
+            <b>入驻院校</b>
+          </h4>
+        </div>
+        <el-row type="flex" class="row-bg" justify="space-around">
+          <el-col :span="6">
+            <div class="grid-content-p">
+              <img src="../assets/imgs/college1.png" alt="" />
+            </div>
+          </el-col>
+          <el-col :span="6">
+            <div class="grid-content-p">
+              <img src="../assets/imgs/college2.png" alt="" />
+            </div>
+          </el-col>
+          <el-col :span="6">
+            <div class="grid-content-p">
+              <img src="../assets/imgs/college3.png" alt="" />
+            </div>
+          </el-col>
+        </el-row>
+        <div class="little-title">
+          <h4>
+            <b>入驻企业</b>
+          </h4>
+        </div>
+        <el-row type="flex" class="row-bg" justify="space-around">
+          <el-col :span="12">
+            <div class="grid-content-p">
+              <img src="../assets/imgs/company1.png" alt="" />
+            </div>
+          </el-col>
+          <el-col :span="5">
+            <div class="grid-content-b">
+              <img src="../assets/imgs/company2.png" alt="" />
+            </div>
+          </el-col>
+          <el-col :span="7">
+            <div class="grid-content-p">
+              <img src="../assets/imgs/company3.png" alt="" />
+            </div>
+          </el-col>
+        </el-row>
+        <div class="little-title">
+          <h4>
+            <b>入驻培训机构</b>
+          </h4>
+        </div>
+        <el-row type="flex" class="row-bg" justify="center">
+          <el-col :span="6">
+            <div class="grid-content bg-purple">
+              <p>澳美清华教育（天洁校区）</p>
+            </div>
+          </el-col>
+          <el-col :span="6">
+            <div class="grid-content bg-purple-light">
+              <p>逸典教育科技有限公司</p>
+            </div>
+          </el-col>
+          <el-col :span="6">
+            <div class="grid-content bg-purple">
+              <p>咸宁志力教育培训有限公司</p>
+            </div>
+          </el-col>
+          <el-col :span="6">
+            <div class="grid-content bg-purple-light">
+              <p>巨人课外教育学校</p>
+            </div>
+          </el-col>
+        </el-row>
+        <div class="little-title">
+          <h4>
+            <b>政府机构</b>
+          </h4>
+        </div>
+        <el-row type="flex" class="row-bg" justify="center">
+          <el-col :span="14">
+            <div class="link">
+              <li><img src="../assets/imgs/government1.png" alt="" /></li>
+              <li><img src="../assets/imgs/government2.png" alt="" /></li>
+              <li><img src="../assets/imgs/government3.png" alt="" /></li>
+              <li><img src="../assets/imgs/government4.png" alt="" /></li>
+              <li><img src="../assets/imgs/government5.png" alt="" /></li>
+
+            </div>
+          </el-col>
+        </el-row>
+      </div>
       <!-- <div class="box-left">
         <el-row type="flex" class="row-bg" justify="center">
           <el-col :span="10"
@@ -139,6 +313,76 @@
         </el-row>
       </div> -->
     </main>
+    <!-- 底部 -->
+    <footer>
+      <div class="footer-nav">
+        <el-row type="flex" class="row-bg" justify="center">
+          <el-col :span="8">
+            <div class="grid-content-p">
+              <div class="logo">
+                <span><img src="../assets/imgs/logo.png" alt="" /></span>
+                <span><router-link to="/index"><strong>咸宁市产教融合服务平台</strong></router-link></span>
+              </div>
+              <span>&nbsp;</span>
+              <div class="unit"><strong>主办：咸宁职业技术学院</strong></div>
+            </div>
+          </el-col>
+          <el-col :span="5">
+            <div class="grid-content-b">
+              <div class="unit"><strong>友情链接</strong></div>
+              <div class="link">
+                <li><a href="">咸宁市人民政府</a></li>
+                <li><a href="">咸宁市人民政府</a></li>
+                <li><a href="">咸宁市人民政府</a></li>
+                <li><a href="">咸宁市人民政府</a></li>
+                <li><a href="">咸宁市人民政府</a></li>
+              </div>
+            </div>
+          </el-col>
+          <el-col :span="7">
+            <div class="grid-content-p">
+              <div class="QR">
+                <img src="../assets/imgs/QRcode.png" alt="" />
+              </div>
+              <div class="tip">
+                <p>扫码关注公众号</p>
+              </div>
+            </div>
+          </el-col>
+          <el-col :span="4">
+            <div class="grid-content-b">
+              <div class="unit"><strong>联系我们</strong></div>
+              <div class="contact">
+                <p>
+                  <i><img src="../assets/imgs/icon-phone.png" alt="" />&nbsp;&nbsp;</i>0715-8255518
+                </p>
+                <p>
+                  <i><img src="../assets/imgs/icon-phone.png" alt="" />&nbsp;&nbsp;</i>0715-8255518
+                </p>
+                <p>
+                  <i><img src="../assets/imgs/icon-phone.png" alt="" />&nbsp;&nbsp;</i>0715-8255518
+                </p>
+              </div>
+            </div>
+          </el-col>
+        </el-row>
+      </div>
+      <div class="footer-info">
+        <el-row type="flex" class="row-bg" justify="center">
+          <el-col :span="8">
+            <div class="grid-content bg-purple">
+              <p>版权所有@咸宁职业技术学院</p>
+            </div>
+          </el-col>
+          <el-col :span="12">
+            <div class="grid-content bg-purple-light">
+              <p>公安部备案号：4212020123456、鄂ICP备2024123456号</p>
+            </div>
+          </el-col>
+        </el-row>
+      </div>
+    </footer>
+
 
     <!-- <div class="main">
       <div class="box1">
@@ -373,12 +617,13 @@ export default {
   },
 };
 </script>
-<style lang="less"  scoped>
+<style lang="less" scoped>
 /*导航栏*/
 .contain {
   height: 100%;
   min-width: 100%;
 }
+
 header {
   position: fixed;
   display: flex;
@@ -389,6 +634,7 @@ header {
   background: rgba(0, 0, 0, 0.4);
   width: 100%;
   z-index: 999;
+
   .logo {
     display: flex;
     align-items: center;
@@ -396,41 +642,51 @@ header {
     min-width: 230px;
     height: 50px;
     flex: 1;
+
     img {
       width: 50px;
       height: 50px;
     }
+
     .router-link {
       text-decoration: none;
       color: rgb(255, 255, 255);
     }
+
     a {
       text-decoration: none;
       color: rgb(255, 255, 255);
     }
   }
+
   nav {
     flex: 2.5;
+
     ul {
       display: flex;
       justify-content: center;
       align-items: center;
     }
+
     li {
       margin: 5px auto;
     }
+
     a {
       text-decoration: none;
       color: #fff;
     }
+
     .r-link:hover {
       font-weight: bold;
       border-bottom: 2px solid #f9f9f9;
     }
   }
+
   .header-button {
     display: flex;
     flex: 0.5;
+
     button {
       background-color: #ffffff;
       border: none;
@@ -445,6 +701,7 @@ header {
       border-radius: 8px;
       transition: all 0.3s ease 0s;
     }
+
     button:hover {
       background-color: #ffffff;
       box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
@@ -457,10 +714,12 @@ header {
   nav {
     display: none;
   }
+
   .header-button {
     display: flex;
     justify-content: space-around;
   }
+
   .custom-carousel {
     height: 200px;
   }
@@ -472,26 +731,31 @@ header {
   background-size: cover;
   background-position: center;
 }
+
 .el-carousel__item:nth-child(5n + 1) {
   background-image: url(../assets/imgs/2.png);
   background-size: cover;
   background-position: center;
 }
+
 .el-carousel__item:nth-child(5n + 2) {
   background-image: url(../assets/imgs/3.png);
   background-size: cover;
   background-position: center;
 }
+
 .el-carousel__item:nth-child(5n + 3) {
   background-image: url(../assets/imgs/1.png);
   background-size: cover;
   background-position: center;
 }
+
 .el-carousel__item:nth-child(5n + 4) {
   background-image: url(../assets/imgs/2.png);
   background-size: cover;
   background-position: center;
 }
+
 /*通知栏*/
 .notice {
   .el-col {
@@ -500,40 +764,195 @@ header {
     border-top: 1px solid #3a91fa;
     border-bottom: 1px solid #3a91fa;
     background-color: #e8f0fd;
+
     .grid-content {
       min-height: 36px;
     }
   }
 }
+
 /*主体 */
 main {
   .el-row {
-    margin-bottom: 20px;
+    margin-bottom: 80px;
+
     &:last-child {
-      margin-bottom: 0;
+      margin-bottom: 30PX;
     }
   }
-  .el-col {
-    border-radius: 4px;
+
+  .grid-content-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .bg-purple-dark {
-    background: #99a9bf;
+
+  .grid-content-b {
+    h2 {
+      margin: 30px auto;
+    }
+
+    h3 {
+      margin: 25px auto;
+    }
+
+    li {
+      margin: 10px auto;
+    }
   }
-  .bg-purple {
-    background: #d3dce6;
-  }
-  .bg-purple-light {
-    background: #e5e9f2;
-  }
-  .grid-content {
-    border-radius: 4px;
-    min-height: 36px;
-  }
-  .row-bg {
-    padding: 10px 0;
-    background-color: #f9fafc;
+
+  .content2 {
+    .little-title {
+      padding: 10px 0 50px 0;
+
+      h4 {
+        text-align: center;
+      }
+
+      h3 {
+        text-align: center;
+        color: #054693;
+      }
+    }
+
+    .grid-content-b img {
+      max-height: 90px;
+    }
+
+    .grid-content-p img {
+      max-height: 150px;
+      padding: 0 10px 0 10px;
+    }
+
+    .el-col p {
+      font-size: 22px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .link {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+
+      img {
+        height: 70px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+    }
   }
 }
+
+/*底部 */
+footer {
+  width: 100%;
+  height: auto;
+
+  .footer-nav {
+    .row-bg {
+      padding: 10px 0 0 0;
+      background-color: #2d3c63;
+
+      .grid-content-p {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 230px;
+        flex: 1;
+
+        img {
+          max-width: 50px;
+        }
+
+        .router-link {
+          text-decoration: none;
+          color: rgb(255, 255, 255);
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: space-between;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+      }
+
+      .unit {
+        color: #fff;
+        margin-bottom: 5px;
+      }
+
+      .link {
+        color: #fff;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: space-between;
+      }
+
+      .QR {
+        img {
+          max-width: 80px;
+          height: 80px;
+        }
+      }
+
+      .tip {
+        font-size: 14px;
+        color: #7b7b7b;
+      }
+
+      .contact {
+        p {
+          color: #fff;
+          margin: 0;
+          padding: 0;
+        }
+
+        img {
+          max-width: 20px;
+        }
+      }
+    }
+
+    .el-col {
+      border-radius: 4px;
+    }
+
+    .grid-content {
+      border-radius: 4px;
+      min-height: 36px;
+    }
+  }
+
+  .footer-info {
+    .row-bg {
+      background-color: #21325e;
+      color: #fff;
+
+      p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+      }
+    }
+  }
+}
+
 // main {
 //   .el-row {
 //     margin-bottom: 20px;
@@ -836,5 +1255,4 @@ main {
 //     font-size: 14px;
 //     color: #fff;
 //   }
-// }
-</style>
+// }</style>
