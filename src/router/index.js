@@ -3,8 +3,7 @@ import VueRouter from 'vue-router'
 import Login from '../components/Login.vue'
 import Index from '../components/Index.vue'
 import Introduce from '../components/Introduce.vue'
-import Other from '../components/Other.vue'
-
+import Tech from '../components/Tech.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -25,8 +24,8 @@ const routes = [
  component: Introduce
  },
  {
- path:'/other',
- component: Other
+ path:'/tech',
+ component: Tech
  }
 ]
 
